@@ -3,7 +3,7 @@
 <configuration status="warn">
 	<properties>
 
-		<Property name="app_name">deeplyPet</Property>
+		<Property name="app_name">teemo</Property>
 		<Property name="log_path">logs/${app_name}</Property>
 	</properties>
 	<appenders>
