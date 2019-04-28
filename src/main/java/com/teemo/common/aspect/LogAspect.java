@@ -24,7 +24,7 @@ import lombok.extern.log4j.Log4j2;
 public class LogAspect {
 
     //两个..代表所有子目录，最后括号里的两个..代表所有参数
-    @Pointcut("execution(public * com.deeplypet.*.controller.*.*(..))")
+    @Pointcut("execution(public * com.teemo.*.controller.*.*(..))")
     public void logPointCut() {
 
     }
